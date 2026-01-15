@@ -7,7 +7,7 @@ MSc in Data Science – University of Bari Aldo Moro \
 ## 📌 Overview
 
 Wind turbine maintenance is a critical operational task ensuring the reliability, safety, and long-term efficiency of a wind farm.
-This project formulates and solves a **Maintenance Scheduling Problem** using **Integer Linear Programming (ILP)**.
+This project formulates and solves a **Maintenance Scheduling Problem** using **Boolean Integer Linear Programming (BILP)**.
 
 
 ## 🗂 Repository Structure
@@ -16,13 +16,13 @@ This project formulates and solves a **Maintenance Scheduling Problem** using **
   - 📄 [report](data/pdf/report.pdf)                # Final Project Report
   - 📄 [wind_turbine_maintenance_optimization.pdf](data/pdf/wind_turbine_maintenance_optimization.pdf)                # Exported notebook in PDF format
 - 📄 [requirements.txt](requirements.txt)                # Dependencies for the environment
-- 📄 [wind_turbine_maintenance_optimization.ipynb](wind_turbine_maintenance_optimization.ipynb)                # Main Jupyter Notebook with ILP implementation
+- 📄 [wind_turbine_maintenance_optimization.ipynb](wind_turbine_maintenance_optimization.ipynb)                # Main Jupyter Notebook with BILP implementation
 
 
 ## 📐 Problem Statement
 The scenario involves a wind farm with **7 turbines** that must be maintained over a **5-day working week** (Mon-Fri). 
 
-The problem is modeled as an **Integer Linear Programming (ILP)** problem.
+The problem is modeled as an **Boolean Integer Linear Programming (BILP)** problem.
 
 **Decision Variables:**
 
