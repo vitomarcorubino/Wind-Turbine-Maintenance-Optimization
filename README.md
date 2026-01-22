@@ -67,13 +67,9 @@ The model successfully identified the optimal schedule with a minimum total cost
 ### 📅 Optimal Weekly Schedule
 The solver generated the following assignment plan, ensuring balanced workloads and cost efficiency:
 
-| Day | Team 1 | Team 2 |
-| :--- | :--- | :--- |
-| **Mon** | Turbine 1 | Turbine 2 |
-| **Tue** | Turbine 5 | Turbine 7 |
-| **Wed** | Turbine 6 | Turbine 3 |
-| **Thu** | *No Task* | *No Task* |
-| **Fri** | Turbine 4 | *No Task* |
+<div align="center">
+  <img src="data/figs/gantt.png" alt="Optimal Weekly Schedule" width="450">
+</div>
 
 *Note: Thursday is left empty as optimal costs were found on other days.
 
